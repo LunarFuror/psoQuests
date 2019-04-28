@@ -1,0 +1,10 @@
+G1 Trial by Fire Notes
+
+[NPC]
+Messenger - TURMS - ID 1100, Function 400
+
+[REGISTERS]
+1 - X
+2 - Y
+3 - Z
+4 - Rotation
