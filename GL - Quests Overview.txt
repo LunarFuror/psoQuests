@@ -1,0 +1,37 @@
+GL Quest Outline
+
+GL1 - Trial by Fire
+	= Slay the dragon, join the cause.
+	
+GL2 - Slaying Ouroburos
+	= De Rol Le is terrorizing the caves, hunt it down.
+	
+GL3 - Recursive Antivirus
+	= Vol Opt has taken control of the mines, shut it down.
+	
+GL4 - Skipping Records
+	= The loop is revealed. Hopefully you can end the cycle.
+	
+	
+Characters
+	TURMS 		- A messenger sent by Dr.Nostra
+	Dr.Nostra 	- A doctor who, in this cycle, has noticed there is a loop.
+	Laverna 	- FOMarl you secretly run into during these quests. 
+				  Assistant to Dr.Nostra, first encountered in the mines.
+				  She will reveal a password here, that you can use in the forest.
+				  She reveals to him the data that leads nostra to discover the loop.
+				  She tricks him to hire someone to kill the 4 beasts and restart the loop.
+				  Secret ending reveals she was corrupted by Dark Falz, and saw that only the plot
+				  of Ep3 could seal him, so she keeps the loop going knowing 
+				  it is how we get to that point.
+				
+	Gomez 		- RAMar In the forest. Talks about taking on the job but after facing the dragon 
+				  and barely escaping he is going to drop out. Something about the client creeps him out.
+				  
+	Ailia		- HUNewerl in the caves. Talks about having joined in after the 
+				  dragon was defeated. She says she was allowed to take on this
+				  contract due to her "resume".
+				  
+	
+				
+	Cabo, Frosty, Kongajinken - Mentioned as people who once defeated Dark Falz in previous cycles.
