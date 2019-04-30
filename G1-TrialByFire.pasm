@@ -39,25 +39,54 @@
 170:    ret
 180:    ret
 250:    ret
-400:    switch_jmp R50, 2:401:406
+400:    switch_jmp R50, 2:401:407
 401:    message 0000044C, 'Yes?'
-        jmp 209
-402:    add_msg 'I am TURMS, a messenger.'
+        mesend
+        jmp 402
+402:    list R100 'Who are you? <cr> Who do you work for? <cr> What is the reward? <cr> Nothing.'
+        switch_jmp R100, 4:403:404:405:406
+403:    message 0000044C, 'I am TURMS, a messenger.'
         add_msg 'My master does not like to apear <cr> in person. So he sends me.'
-        add_msg 'Anything else?'
-        jmp 209
-403:    add_msg 'He will let you know should <cr> you succeed in your mission.'
-        add_msg 'Anything else?'
-        jmp 209
-404:    add_msg 'Meseta and opportunity.'
-        add_msg 'Anything else?'
-        jmp 209
-405:    add_msg 'Very well. Please return <cr> when the dragon is slain.'
+        mesend
+        jmp 402
+404:    message 0000044C, 'He will let you know, should <cr> you succeed in your mission.'
+        mesend
+        jmp 402
+405:    message 0000044C, 'Meseta and an opportunity <cr> to work with us again.'
+        mesend
+        jmp 402
+406:    message 0000044C, 'Very well. Please return <cr> when the dragon is slain.'
         mesend
         ret
-406:    message 0000044C, 'So the dragon is slain. <cr> Excellent!'
+407:    switch_jmp R51, 2:408:409
+408:    set R51
+        message 0000044C, 'So the dragon is slain. <cr> Excellent!'
         add_msg 'Someone very important <cr> is waiting for you just outside.'
         mesend
         ret
-409:    list R100 'Who are you? <cr> Who do you work for? <cr> What is the reward? <cr> Nothing.'
-        switch_jmp R100, 4:402:403:404:405
+409:    message 0000044C, 'Someone very important <cr> is waiting for you just outside.'
+        mesend
+        ret
+410:    message 0000044D, 'That dragon is no joke, <cr> I barely got out alive.'
+        jmp 411
+411:    list R100 'Who are you? <cr> What was the dragon like? <cr> Know about the client? <cr> Goodbye.'
+        switch_jmp R100, 4:412:413:414:415
+412:    message 0000044D, 'Ranger Gomez, thought I could <cr> take the dragon.'
+        add_msg 'I was on the Gran Squal <cr> and have been working <cr> in the guild.'
+        add_msg 'Guess I bit off more than <cr> I could chew.'
+        mesend
+        jmp 411
+413:    message 0000044D, 'Huge. Breathes fire. <cr> Burrows around.'
+        add_msg 'I hope that is the <cr> top of the food chain.'
+        add_msg 'If there's anything <cr> bigger than that, <cr> I'll retire.'
+        mesend
+        jmp 411
+414:    message 0000044D, 'Strange messenger, <cr> offering money.'
+        add_msg 'Something just aint right <cr> about this job.'
+        add_msg 'Did you hear how TURMS <cr> says master?'
+        add_msg 'Can't tell if he's a slave <cr> or an employee.'
+        mesend
+        jmp 411
+415:    message 0000044D, 'Good luck.'
+        mesend
+        ret

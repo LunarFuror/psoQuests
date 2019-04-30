@@ -1,45 +1,51 @@
 G1 Trial by Fire Notes
 
 [NPC]
-Messenger 	- TURMS 	- ID 1100, Function 400
-RAMar		- Gomez 	- ID 1101, Function 410
-FOMarl		- Laverna	- ID 1102, Function 420
+Messenger     - TURMS     - ID 1100, Function 400
+RAMar        - Gomez     - ID 1101, Function 
+FOMarl        - Laverna    - ID 1102, Function 
+Scientist    - Dr.Nostra    - ID 1103, Function 
 
 [FUNCTIONS]
 0
-1
-2
-3
+1 ret
+2 disable move, turn on cine
+3 enable move, turn off cine
 150 - Pioneer2 Main
 151 - Turms Chat
 160 - Forest1 Main
 170 - Forest2 Main
 180 - Dragon Main
 250 - Quest Complete
-400 - TURMS Speech
+400 - TURMS Speech initial
 401 - TURMS questions
-402 - Who are you
-403 - Who do you work for
-404 - What is the reward
-405 - Nevermind
-406 - TURMS Dragon Killed
-410 - Gomez Speech
-420 - Laverna Speech
+402 - TURMS Question Branch
+403 - TURMS Who are you
+404 - TURMS Who do you work for
+405 - TURMS What is the reward
+406 - TURMS Nevermind
+407 - TURMS Dragon Killed switch
+408 - TURMS Dragon killed first talk (Spawn Dr.Nostra)
+409 - TURMS Final Resting talk
+410 - Gomez Speech initial
+411 - Gomez questions
+412 - Gomez Who are you
+413 - Gomez Dragon
+414 - Gomez Client
+415 - Gomez Goodbye
+416 - Laverna Speech initial
 
 [REGISTERS]
-0 - Quest Started
-1 - X
-2 - Y
-3 - Z
-4 - Rotation
-5
-6
-7
-8
-9
-50 - Dragon killed
+0     - Quest Started
+1     - Player cinematic X
+2     - Player cinematic Y
+3     - Player cinematic Z
+4     - Player cinematic Rotation
+50     - Dragon killed
+51  - Dragon killed turms talked to flag
 100 - Player Text Choices
 74-78 - Quest object things
-250 - player slot number
+83     - Difficulty
+250 - Player Slot Number
 255 - Quest complete
 253 - quest failed
