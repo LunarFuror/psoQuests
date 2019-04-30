@@ -19,9 +19,9 @@ Characters
 	Laverna 	- FOMarl you secretly run into during these quests. 
 				  Assistant to Dr.Nostra, first encountered in the mines.
 				  She will reveal a password here, that you can use in the forest.
-				  She reveals to him the data that leads nostra to discover the loop.
+				  In the forest she reveals you that she gave nostra the data that leads him to discover the loop, she gives you a secret for the ruins here.
 				  She tricks him to hire someone to kill the 4 beasts and restart the loop.
-				  Secret ending reveals she was corrupted by Dark Falz, and saw that only the plot
+				  Secret in ruins reveals she was corrupted by Dark Falz, and saw that only the plot
 				  of Ep3 could seal him, so she keeps the loop going knowing 
 				  it is how we get to that point.
 				
@@ -30,8 +30,22 @@ Characters
 				  
 	Ailia		- HUNewerl in the caves. Talks about having joined in after the 
 				  dragon was defeated. She says she was allowed to take on this
-				  contract due to her "resume".
+				  contract due to her connection to Laverna that is not explained until the secret in the ruins where she is met again.
 				  
-	
+	GLADIO		- HUCast in the Mines seemingly effected by Vol Opt virus. Barely
+				  holding on and reveals something in his head is commaning him to
+				  stop you. Will try to fight you at this point.
+				  
+	Harley		- FONewerl in Ruins. Found only in the second room. She is scared
+				  and hearing a whispering voice. Clearly terrified of the area.
 				
-	Cabo, Frosty, Kongajinken - Mentioned as people who once defeated Dark Falz in previous cycles.
+	Cabo, Frosty, Kongajinken - Mentioned in the ruins secret as people who once defeated Dark Falz in previous cycles.
+	
+Areas and events-
+FOREST 1 - Gomez
+FOREST 2 - Laverna
+CAVES 2 - Ailia
+MINES 1 - Laverna
+MINES 2 - Gladio
+RUINS 1 - Harley
+RUINS 3 - Laverna

@@ -6,7 +6,7 @@ IDS
 FUNCTIONS
 150~200 Floor functions
 250 Success Function
-use 400~450 for talking
+use 400~500 for talking
 
 TEXT LIMITS
 Characters Names 13
