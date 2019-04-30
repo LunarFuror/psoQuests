@@ -2,14 +2,44 @@ G1 Trial by Fire Notes
 
 [NPC]
 Messenger 	- TURMS 	- ID 1100, Function 400
-RAMar		- Gomez 	- ID 1101, Function	410
+RAMar		- Gomez 	- ID 1101, Function 410
 FOMarl		- Laverna	- ID 1102, Function 420
 
+[FUNCTIONS]
+0
+1
+2
+3
+150 - Pioneer2 Main
+151 - Turms Chat
+160 - Forest1 Main
+170 - Forest2 Main
+180 - Dragon Main
+250 - Quest Complete
+400 - TURMS Speech
+401 - TURMS questions
+402 - Who are you
+403 - Who do you work for
+404 - What is the reward
+405 - Nevermind
+406 - TURMS Dragon Killed
+410 - Gomez Speech
+420 - Laverna Speech
+
 [REGISTERS]
-0 	- Quest Started
-1 	- Player cinematic X
-2 	- Player cinematic Y
-3 	- Player cinematic Z
-4 	- Player cinematic Rotation
-83 	- Difficulty
-250 - Player Slot Number
+0 - Quest Started
+1 - X
+2 - Y
+3 - Z
+4 - Rotation
+5
+6
+7
+8
+9
+50 - Dragon killed
+100 - Player Text Choices
+74-78 - Quest object things
+250 - player slot number
+255 - Quest complete
+253 - quest failed
