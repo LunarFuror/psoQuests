@@ -23,9 +23,9 @@
         ret
 150:    switch_jmp R0, 2:151:1
 151:    leti R60, 00000020
-        leti R60, 00000000
-        leti R60, 00000026
-        leti R60, 00002A68
+        leti R61, 00000000
+        leti R62, 00000026
+        leti R63, 00002A68
         p_setpos 00000000, R1
         call 2
         message 0000044C, 'Good Evening.'
