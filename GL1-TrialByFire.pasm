@@ -1,28 +1,31 @@
-0:      set_floor_handler 00000000, 150
-        set_floor_handler 00000001, 160
-        set_floor_handler 00000002, 170
-        set_floor_handler 0000000B, 180
+0:      set_episode 00000000
+        set_floor_handler 00000000, 150
         set_qt_success 250
+        leti R60, 00000000
+        leti R61, 00000000
+        leti R62, 00000000
+        leti R63, 00000000
+        map_designate R60
         get_difflvl R83
         ret 
 1:      ret 
-2:      disable_movement2 R250
+2:      disable_movement1 00000000
         p_action_disable
         hud_hide
         cine_enable
         cam_zmin
         ret
-3:      enable_movement2 R250
+3:      enable_movement1 00000000
         p_action_enable
         hud_show
         cine_disable
         cam_zmout
         ret
 150:    switch_jmp R0, 2:151:1
-151:    leti R1, 00000020
-        leti R2, 00000000
-        leti R3, 00000026
-        leti R4, 00002A68
+151:    leti R60, 00000020
+        leti R60, 00000000
+        leti R60, 00000026
+        leti R60, 00002A68
         p_setpos 00000000, R1
         call 2
         message 0000044C, 'Good Evening.'
@@ -38,7 +41,27 @@
 160:    ret
 170:    ret
 180:    ret
-250:    ret
+250:    switch_jmp R83, 4:251:252:253:254
+251:    window_msg 'You've been awarded <color 1>1<color 0> Meseta.'
+        bgm 00000001
+        winend
+        pl_add_meseta2 00000001
+        ret
+252:    window_msg 'You've been awarded <color 1>1<color 0> Meseta.'
+        bgm 00000001
+        winend
+        pl_add_meseta2 00000001
+        ret
+253:    window_msg 'You've been awarded <color 1>1<color 0> Meseta.'
+        bgm 00000001
+        winend
+        pl_add_meseta2 00000001
+        ret
+254:    window_msg 'You've been awarded <color 1>1<color 0> Meseta.'
+        bgm 00000001
+        winend
+        pl_add_meseta2 00000001
+        ret
 400:    switch_jmp R50, 2:401:407
 401:    message 0000044C, 'Yes?'
         mesend
@@ -89,4 +112,10 @@
         jmp 411
 415:    message 0000044D, 'Good luck.'
         mesend
+        ret
+416:    message 0000044E, 'Contratules.'
+        add_msg 'Looks like a winner is you.'
+        add_msg 'Test complete.'
+        mesend
+        set R255
         ret
